@@ -1,0 +1,117 @@
+.section-1{
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0px 40px 0px;
+}
+
+.principal {
+    font-size: 40px;
+    letter-spacing: 5px;
+    color:white
+}
+
+.income{
+    width: 300px;
+    background-color: crimson;
+    color: white;
+    padding-bottom: 0px;
+    font-weight: 600;
+}
+
+.expent{
+    width: 300px;
+    background-color: turquoise;
+    color: white;
+    padding-bottom: 0px;
+    font-weight: 600;
+}
+
+.percentage-expenses{
+    background-color: crimson;
+    color: rgb(248, 196, 196);
+    font-weight: 400;
+    /* margin-right: 1px!important; */
+}
+
+
+.section-2{
+    background-color:rgb(225, 225, 236);
+}
+
+
+.fa-check-circle{
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+
+.thecircle{
+    display: none;
+}
+
+h5{
+    font-weight: 200;
+}
+
+.expenses-percentage{
+    background-color: crimson;
+    color: rgb(248, 196, 196);
+    padding: 4px 8px 4px 8px;
+    border-radius: 2px;
+}
+
+.fa-times-circle{
+    font-size: 20px;
+    color: tomato;
+}
+
+.pecentage-col{
+    width: 120px;
+
+}
+
+.delete{
+    display: none;
+}
+
+.add_item_btn:hover{
+    color: black!important;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    
+    .expent, .income{
+        width: 250px;
+    }
+
+    .percentage-expenses{
+        margin: 10px;
+        padding:8px!important;
+    }
+
+    .real-price{
+        font-size: 24px;
+    }
+
+    .add_description{
+        width: 95%!important;
+    }
+
+    .table{
+        width: 100%!important;
+    }
+
+
+    .head-note{
+        font-size: 14px;
+    }
+
+    .principal{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}

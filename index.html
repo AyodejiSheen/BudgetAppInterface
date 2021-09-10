@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../fontawesome-free-5.14.0-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../fontawesome-free-5.14.0-web/css/all.css"/>
+    <link rel="stylesheet" href="../../fontawesome-free-5.14.0-web/css/all.css"/>
+
+</head>
+
+<body>
+
+<section align="center" class="section-1">
+    <h5 class="text-warning head-note"> Available Budget in September 2020:</h5>
+    <h1 class="principal" > + 1,400.00</h1>
+
+    <div class="container income p-3 mb-3">
+        <div class="row">
+          <p class="col-md-4 mb-0 text-light">INCOME</p>
+          <P class="col-md-6 mb-0 real-price">+ 4,000.00</P>
+        </div> 
+    </div>
+    
+    <div class=" container expent p-3">
+      <div class="row">
+        <p class="col-md-4 mb-0 text-dark" >EXPENSES</p>
+        <p class="col-md-6 mb-0 real-price">- 2,600.00</p>
+        <p class="col-md-2 mb-0 percentage-expenses">23%</p>
+      </div>
+    </div>
+</section>
+
+
+<section class="section-2 pt-3 pb-3" align="center">
+<div class="container">
+  <div class="row justify-content-center">
+
+    <form action="" class="form-group mb-0 ml-2" width ="300px">
+      <select name="add_type" id="options" class="form-control add_item">
+        <option value=""></option>
+        <option value="inc">Income</option>
+        <option value="exp">Expenses</option>
+      </select>
+    </form>
+
+    <form action="" class="form-group mb-0 ml-2">
+      <input type="text"  placeholder="Enter description" class="form-control add_description" size="50"/>
+    </form>
+
+    <form action="" class="form-group mb-0 ml-2" width ="300px">
+      <input type="number"  placeholder="value" class="form-control add_value"/>
+    </form>
+
+    <i class="fa fa-check-circle add_item_btn text-success mb-0 ml-2"></i>
+
+  </div>
+
+</section>
+
+
+<section class="section-3 mt-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <p style="color: turquoise; font-weight: bold;">INCOME</p>
+
+        <table class="table table-striped">
+
+          <tbody>
+            <tr>
+              <td >software</td>
+              <td class="text-right text-info text-center">@mdo</td>
+            </tr>
+            <tr>
+              <td>web</td>
+              <td class="text-right text-info text-center">@fat</td>
+            </tr>
+            <tr class="thetable">
+              <td>the Bird</td>
+              <td class="text-right text-info text-center">@twitter </td>
+              <td class="thecircle"><i class="fa fa-times-circle "></i></td>
+            </tr>
+          </tbody>
+        </table>
+
+
+      </div>
+        
+
+      <div class="col-md-6">
+        <p style="color:  crimson; font-weight: bold;">EXPENSES</p>
+
+       
+        <table class="table table-striped">
+
+          <tbody>
+            <tr class="expenses-row">
+              <td>software</td>
+              <td class="text-right text-danger">@twitter</td>
+              <td class="text-center pecentage-col"><span class="expenses-percentage">23%</span> <span class="delete"><i class="fa fa-times-circle" onclick="cutit()"></i></span></td>
+            </tr>
+            <tr class="expenses-row">
+              <td>wweb</td>
+              <td class="text-right text-danger">@twitter</td>
+              <td class="text-center pecentage-col"><span class="expenses-percentage">23%</span> <span class="delete"><i class="fa fa-times-circle"></i></span></td>
+            </tr>
+            <tr class="expenses-row">
+              <td>the Bird</td>
+              <td class="text-right text-danger">@twitter</td>
+              <td class="text-center pecentage-col">
+                <span class="expenses-percentage">23%</span> <span class="delete"><i class="fa fa-times-circle"></i></span></td>
+            </tr>
+          </tbody>
+        </table>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+<script src="script.js"></script>
+</html>
